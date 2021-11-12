@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clínica Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="Topo">
+            <a id="listaPacientesMenu" href="listaPacientes.html" >Lista Pacientes</a>
+            <a id="agendaMenu" href="agenda.html">Agenda</a>
+            <a id="dadosMedicoMenu" href="dadosMedico.html">Dados Médico</a>
+            <a id="sairnMenu" href="index.xhtml">SAIR</a>
+        </div>
+         <script type="text/javascript">
+                       function Paciente(){
+                               location.href ="paciente.html"
+                       }
+                </script>
+        <form action="#" method="POST" style="width: 50%;height: 600px;background-color: gray;margin: auto;margin-top: 10px;">
+            <h1 style="width:30%;margin: auto;color: white;font-size: 25px;"><b>Meus pacientes</b></h1>
+
+            <fieldset style="width: 50%;background-color: gray;margin: auto;margin-top: 30px;">
+                <label for="codigoProdutoitem" style="color: white;margin:auto;border-radius: 10px;margin-top: 30px;"><b>Informe o nome do paciente</b></label><br>
+                <input type="text" name="descProdutoVenda" style="margin:auto;border-radius: 10px;"">
+                <input type="button" value="Pesquisar" style="margin:auto;border-radius: 10px;">
+            </fieldset>
+
+            <fieldset style="width: 50%;background-color: gray;margin: auto;margin-top: 30px;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">Lucas Pinheiro</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+            </fieldset>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">Bruno Nazário</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">João da Silva</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">Gabriela</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">Bruna Galhaço</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">Jeremias</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                <label for="obsProduto" style="color: white;font-size: 18px;">Giovanna</label>
+                <input type="button" onClick="Paciente()" value="Acessar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+            </fieldset>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cliníca Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="Topo">
+            <a id="clinicaMenu" href="clinica.html" >Clínica</a>
+            <a id="equipeMenu" href="equipe.html">Equipe</a>
+            <a id="contatoMenu" href="contato.html">Contato</a>
+            <a id="loginMenu" href="login.html" >Login</a>
+        </div>
+        <form name="cadastroUsuario" action="receberValidarUsuario.jsp" method="POST"
+              style="width: 50%;height: 450px;background-color: gray;margin: auto;margin-top: 10px;">
+                <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                    
+                    <label for="codigoProdutoitem"><b>Nome</b></label><br>
+                    <input type="text" name="name" id="name" style="margin:auto;border-radius: 10px;"><br>
+
+                    <label for="codigoProdutoitem"><b>Sobrenome</b></label><br>
+                    <input type="text" name="sobrenome" id="sobrenome" style="margin:auto;border-radius: 10px;"><br>                    
+                    
+                    <label for="codigoProdutoitem"><b>Data de Nascimento</b></label><br>
+                    <input type="Date" name="nascimento" id="nascimento" style="margin:auto;border-radius: 10px;"><br>
+                    
+                    <label for="codigoProdutoitem"><b>CPF</b></label><br>
+                    <input type="text" name="CPF" id="CPF" style="margin:auto;border-radius: 10px;"><br> 
+                    
+                    <label for="codigoProdutoitem"><b>RG</b></label><br>
+                    <input type="text" name="RG" id="RG" style="margin:auto;border-radius: 10px;"><br> 
+                    
+                    <label for="codigoProdutoitem"><b>Tefelone</b></label><br>
+                    <input type="text" name="Tefelone" id="Tefelone" style="margin:auto;border-radius: 10px;"><br>
+                    
+                    <label for="codigoProdutoitem" ><b>Sexo</b></label><br>
+                    <input type="checkbox" name="sexo" id="sexo" style="margin:auto;border-radius: 10px;">Feminino<br>
+                    <input type="checkbox" name="sexo" id="sexo" style="margin:auto;border-radius: 10px;">Masculino<br>
+
+                    <label for="codigoProdutoitem"><b>Senha</b></label><br>
+                    <input type="Password" name="password" id="password" style="margin:auto;border-radius: 10px;"><br>
+
+                    <input type="button" value="Salvar" id="btnSalvar" onclick="salvarUsuario()" style="margin:auto;margin-top: 20px;border-radius: 10px;">
+
+                    <input type="button" value="Cancelar" id="btnCancelar" onclick='cancelar("cadUsuario")' style="margin:auto;margin-top: 20px;border-radius: 10px;">
+                </fieldset>
+            </form>
+    </body>
+</html>

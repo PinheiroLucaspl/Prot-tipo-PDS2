@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clínica Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="Topo">
+            <a id="consultasMenu" href="consultas.html" >Consultas</a>
+            <a id="solicitacoesMenu" href="solicitacoes.html">Requisições</a>
+            <a id="dadosPessoaMenu" href="dadosPessoais.html">Dados Paciente</a>
+            <a id="sairnMenu" href="index.xhtml">SAIR</a>
+        </div>
+        <form action="#" method="POST" style="width: 50%;height: 400px;background-color: gray;margin: auto;margin-top: 10px;">
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+
+                <script type="text/javascript">
+                       function Receitas(){
+                               location.href ="receitas.html"
+                       }
+                        
+                       function Exames(){
+                               location.href ="exames.html"
+                       }
+                </script>
+
+                <input type="button" onClick="Receitas()" value="Receitas" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+                <input type="button" value="Exames" onClick="Exames()" style="margin-top: 10px;float: right;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+        </form>
+    </body>
+</html>

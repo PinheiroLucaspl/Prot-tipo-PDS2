@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cliníca Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="Topo">
+            <a id="clinicaMenu" href="clinica.html" >Clínica</a>
+            <a id="equipeMenu" href="equipe.html">Equipe</a>
+            <a id="contatoMenu" href="contato.html">Contato</a>
+            <a id="loginMenu" href="login.html" >Login</a>
+        </div>
+        
+            <form action="#" method="POST" style="width: 50%;height: 400px;background-color: gray;margin: auto;margin-top: 10px;">
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                
+                <label style="margin: auto;" for="codigoProdutoitem"><b>Email</b></label><br>
+                <input type="text" name="codigoProduto" style="margin-top: 10px;margin-top: 10px;border-radius: 10px;"><br>
+
+               
+                <label for="codigoProdutoitem"><b>Senha</b></label><br>
+                <input type="Password" name="codigoProduto" style="margin-top: 10px;margin-top: 10px;border-radius: 10px;"><br>
+
+                <input type="button" onClick="LogarSistema()" value="Entrar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+                <script type="text/javascript">
+                        function CadastroUsuario(){
+                                location.href ="cadastro_usuario.html"
+                        }
+                        
+                        function LogarSistema(){
+                                location.href ="logar.html"
+                        }
+                </script>
+                
+                <input type="button" value="Cadastrar" onClick="CadastroUsuario()" style="margin-top: 10px;float: right;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/05/2021, 23:23:57
+    Author     : Dell
+*/
+
+#Topo{
+    background: gray;
+    width: 100%;
+    height: 50px;
+}
+
+#clinicaMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+#loginMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+#equipeMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+#contatoMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+#Topo a{
+    margin-top: 10px;
+}
+
+#consultasMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+
+#solicitacoesMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+
+#dadosPessoaMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+    float: left;
+}
+
+#sairnMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+
+#listaPacientesMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:120px;
+    height: 40px;
+    float: left;
+}
+
+#agendaMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 40px;
+    float: left;
+}
+
+#dadosMedicoMenu{
+    text-decoration:none; 
+    font-size: 18px;;
+    color: white;
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+    float: left;
+}

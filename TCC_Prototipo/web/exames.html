@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clínica Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="Topo">
+            <a id="consultasMenu" href="consultas.html" >Consultas</a>
+            <a id="solicitacoesMenu" href="solicitacoes.html">Requisições</a>
+            <a id="dadosPessoaMenu" href="dadosPessoais.html">Dados Paciente</a>
+            <a id="sairnMenu" href="index.xhtml">SAIR</a>
+        </div>
+        <form action="#" method="POST" style="width: 50%;height: 400px;background-color: gray;margin: auto;margin-top: 10px;">
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+
+                <label for="obsProduto" style="color:white;margin-left: 250px;width: 50px;height:20px;font-size: 20px;">Exame</label>
+                <textarea cols="80" rows="15" id="obsProd" name="obsProd"></textarea>
+
+                <input type="button" onClick="Imprimir()" value="Imprimir" style="margin-top: 10px;height: 25px;border-radius: 10px;">
+
+            </fieldset>
+        </form>
+    </body>
+</html>

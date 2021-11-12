@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clínica Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="Topo">
+            <a id="consultasMenu" href="consultas.html" >Consultas</a>
+            <a id="solicitacoesMenu" href="solicitacoes.html">Requisições</a>
+            <a id="dadosPessoaMenu" href="dadosPessoais.html">Dados Paciente</a>
+            <a id="sairnMenu" href="index.xhtml">SAIR</a>
+        </div>
+        <form action="#" method="POST" style="width: 50%;height: 400px;background-color: gray;margin: auto;margin-top: 10px;">
+            <h1 style="width:35%;margin: auto;color: white;font-size: 25px;"><b>Próxima consulta</b></h1>
+            <fieldset style="width: 50%;background-color: gray;margin: auto;margin-top: 20px;">
+
+                
+                <label for="obsProduto" style="width: 50%;margin-left: 70px;color: white;font-size: 20px;">24 de Maio de 2021</label>
+
+            </fieldset>
+            
+            <fieldset style="width: 50%;background-color: gray;margin: auto;">
+
+                <script type="text/javascript">
+                       function LogarPaciente(){
+                               location.href ="paciente.html"
+                       }
+                        
+                       function LogarMedico(){
+                               location.href ="medico.html"
+                       }
+                </script>
+
+                <input type="button" onClick="LogarPaciente()" value="Reagendar" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+                <input type="button" onClick="LogarMedico()" value="Cancelar" style="margin-top: 10px;float: right;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+            </fieldset>
+        </form>
+    </body>
+</html>

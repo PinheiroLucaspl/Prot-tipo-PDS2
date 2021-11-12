@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+       <div id="Topo">
+            <a id="listaPacientesMenu" href="listaPacientes.html" >Lista Pacientes</a>
+            <a id="agendaMenu" href="agenda.html">Agenda</a>
+            <a id="dadosMedicoMenu" href="dadosMedico.html">Dados Médico</a>
+            <a id="sairnMenu" href="index.xhtml">SAIR</a>
+        </div>
+        <form name="cadastroUsuario" action="receberValidarUsuario.jsp" method="POST"
+              style="width: 50%;height: 450px;background-color: gray;margin: auto;margin-top: 10px;">
+                <h1 style="width:30%;margin: auto;color: white;font-size: 25px;"><b>Dados do Paciente</b></h1>
+
+                <fieldset style="width: 50%;background-color: gray;margin: auto;">
+                    
+                    <label for="codigoProdutoitem"><b>Nome</b></label><br>
+                    <input type="text" name="name" id="name" style="margin:auto;border-radius: 10px;"><br>
+
+                    <label for="codigoProdutoitem"><b>Sobrenome</b></label><br>
+                    <input type="text" name="sobrenome" id="sobrenome" style="margin:auto;border-radius: 10px;"><br>                    
+                    
+                    <label for="codigoProdutoitem"><b>Data de Nascimento</b></label><br>
+                    <input type="Date" name="nascimento" id="nascimento" style="margin:auto;border-radius: 10px;"><br>
+                    
+                    <label for="codigoProdutoitem"><b>CPF</b></label><br>
+                    <input type="text" name="CPF" id="CPF" style="margin:auto;border-radius: 10px;"><br> 
+                    
+                    <label for="codigoProdutoitem"><b>RG</b></label><br>
+                    <input type="text" name="RG" id="RG" style="margin:auto;border-radius: 10px;"><br> 
+                    
+                    <label for="codigoProdutoitem"><b>Tefelone</b></label><br>
+                    <input type="text" name="Tefelone" id="Tefelone" style="margin:auto;border-radius: 10px;"><br>
+                    
+                    <label for="codigoProdutoitem" ><b>Sexo</b></label><br>
+                    <input type="checkbox" name="sexo" id="sexo" style="margin:auto;border-radius: 10px;">Feminino<br>
+                    <input type="checkbox" name="sexo" id="sexo" style="margin:auto;border-radius: 10px;">Masculino<br>
+
+                    <input type="button" onClick="Receitas()" value="Receitas" style="margin-top: 10px;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+                    <input type="button" value="Exames" onClick="Exames()" style="margin-top: 10px;float: right;height: 25px;margin-top: 10px;border-radius: 10px;">
+
+                   </fieldset>
+            </form>
+    </body>
+</html>
